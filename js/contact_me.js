@@ -46,7 +46,7 @@ $(function() {
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</button>");
-          $('#success > .alert-danger').append($("<strong>").text("죄송합니다 " + firstName + "님 아직 구현중입니다.."));
+          $('#success > .alert-danger').append($("<strong>").text("죄송합니다 " + firstName + "님 아직 작업중입니다.."));
           $('#success > .alert-danger').append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");
