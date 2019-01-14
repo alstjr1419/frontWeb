@@ -43,6 +43,7 @@
 .costume-ul{
   padding: 0;
   margin: 0;
+  overflow: none;
 }
 p{
   padding: 0;
@@ -51,4 +52,7 @@ p{
 img{
   border-radius: 10%;
 
+}
+#languages{
+  margin-right: .5rem;
 }
